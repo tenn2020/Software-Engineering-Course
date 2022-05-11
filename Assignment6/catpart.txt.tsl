@@ -1,0 +1,978 @@
+
+Test Case 1  		<single>
+   Source Directory(SD) Existence :  True
+
+
+Test Case 2  		<error>
+   Source Directory(SD) Existence :  False
+
+
+Test Case 3  		<error>
+   Number of Source Directory(SD) :  None
+
+
+Test Case 4  		<single>
+   Number of Source Directory(SD) :  One
+
+
+Test Case 5  		<single>
+   Source File size :  Empty
+
+
+Test Case 6  		<error>
+   Number of files in the source(S) directory(D) :  Zero
+
+
+Test Case 7  		<single>
+   Number of files in the source(S) directory(D) :  One
+
+
+Test Case 8  		<single>
+   Destination Directory(DD) Existence :  True
+
+
+Test Case 9  		<error>
+   Destination Directory(DD) Existence :  False
+
+
+Test Case 10 		<single>
+   Destination File size :  Empty
+
+
+Test Case 11 		<error>
+   Number of Destination Directory(SD) :  None
+
+
+Test Case 12 		<single>
+   Number of Destination Directory(SD) :  One
+
+
+Test Case 13 		<error>
+   Number of files in the destination directory :  Zero
+
+
+Test Case 14 		<single>
+   Number of files in the destination directory :  One
+
+
+Test Case 15 		<single>
+   number of command line arguments and options :  Zero
+
+
+Test Case 16 		(Key = 0.3.2.1.3.1.0.2.0.3.3.1.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 17 		(Key = 0.3.2.1.3.1.0.2.0.3.3.1.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 18 		(Key = 0.3.2.1.3.1.0.2.0.3.3.1.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 19 		(Key = 0.3.2.1.3.1.0.2.0.3.3.2.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 20 		(Key = 0.3.2.1.3.1.0.2.0.3.3.2.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 21 		(Key = 0.3.2.1.3.1.0.2.0.3.3.2.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 22 		(Key = 0.3.2.1.3.1.0.2.0.3.3.3.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 23 		(Key = 0.3.2.1.3.1.0.2.0.3.3.3.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 24 		(Key = 0.3.2.1.3.1.0.2.0.3.3.3.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 25 		(Key = 0.3.2.1.3.2.0.2.0.3.3.1.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 26 		(Key = 0.3.2.1.3.2.0.2.0.3.3.1.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 27 		(Key = 0.3.2.1.3.2.0.2.0.3.3.1.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 28 		(Key = 0.3.2.1.3.2.0.2.0.3.3.2.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 29 		(Key = 0.3.2.1.3.2.0.2.0.3.3.2.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 30 		(Key = 0.3.2.1.3.2.0.2.0.3.3.2.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 31 		(Key = 0.3.2.1.3.2.0.2.0.3.3.3.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 32 		(Key = 0.3.2.1.3.2.0.2.0.3.3.3.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 33 		(Key = 0.3.2.1.3.2.0.2.0.3.3.3.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 34 		(Key = 0.3.2.1.3.3.0.2.0.3.3.1.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 35 		(Key = 0.3.2.1.3.3.0.2.0.3.3.1.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 36 		(Key = 0.3.2.1.3.3.0.2.0.3.3.1.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 37 		(Key = 0.3.2.1.3.3.0.2.0.3.3.2.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 38 		(Key = 0.3.2.1.3.3.0.2.0.3.3.2.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 39 		(Key = 0.3.2.1.3.3.0.2.0.3.3.2.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 40 		(Key = 0.3.2.1.3.3.0.2.0.3.3.3.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 41 		(Key = 0.3.2.1.3.3.0.2.0.3.3.3.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 42 		(Key = 0.3.2.1.3.3.0.2.0.3.3.3.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Close
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 43 		(Key = 0.3.2.2.3.1.0.2.0.3.3.1.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 44 		(Key = 0.3.2.2.3.1.0.2.0.3.3.1.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 45 		(Key = 0.3.2.2.3.1.0.2.0.3.3.1.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 46 		(Key = 0.3.2.2.3.1.0.2.0.3.3.2.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 47 		(Key = 0.3.2.2.3.1.0.2.0.3.3.2.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 48 		(Key = 0.3.2.2.3.1.0.2.0.3.3.2.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 49 		(Key = 0.3.2.2.3.1.0.2.0.3.3.3.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 50 		(Key = 0.3.2.2.3.1.0.2.0.3.3.3.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 51 		(Key = 0.3.2.2.3.1.0.2.0.3.3.3.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Alphanumeric chars
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 52 		(Key = 0.3.2.2.3.2.0.2.0.3.3.1.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 53 		(Key = 0.3.2.2.3.2.0.2.0.3.3.1.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 54 		(Key = 0.3.2.2.3.2.0.2.0.3.3.1.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 55 		(Key = 0.3.2.2.3.2.0.2.0.3.3.2.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 56 		(Key = 0.3.2.2.3.2.0.2.0.3.3.2.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 57 		(Key = 0.3.2.2.3.2.0.2.0.3.3.2.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 58 		(Key = 0.3.2.2.3.2.0.2.0.3.3.3.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 59 		(Key = 0.3.2.2.3.2.0.2.0.3.3.3.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 60 		(Key = 0.3.2.2.3.2.0.2.0.3.3.3.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Spaces
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 61 		(Key = 0.3.2.2.3.3.0.2.0.3.3.1.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 62 		(Key = 0.3.2.2.3.3.0.2.0.3.3.1.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 63 		(Key = 0.3.2.2.3.3.0.2.0.3.3.1.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  First line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 64 		(Key = 0.3.2.2.3.3.0.2.0.3.3.2.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 65 		(Key = 0.3.2.2.3.3.0.2.0.3.3.2.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 66 		(Key = 0.3.2.2.3.3.0.2.0.3.3.2.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Last line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+
+
+Test Case 67 		(Key = 0.3.2.2.3.3.0.2.0.3.3.3.1.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Alphanumeric chars
+   number of command line arguments and options  :  More than one
+
+
+Test Case 68 		(Key = 0.3.2.2.3.3.0.2.0.3.3.3.2.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Spaces
+   number of command line arguments and options  :  More than one
+
+
+Test Case 69 		(Key = 0.3.2.2.3.3.0.2.0.3.3.3.3.2.)
+   Source Directory(SD) Existence                :  <n/a>
+   Number of Source Directory(SD)                :  Many
+   Source File size                              :  Not Empty
+   Source File open or close                     :  Open
+   Number of files in the source(S) directory(D) :  Multiple
+   Content of the file                           :  Special Characters
+   Destination Directory(DD) Existence           :  <n/a>
+   Destination File size                         :  Not Empty
+   Destination File open or close                :  <n/a>
+   Number of Destination Directory(SD)           :  Many
+   Number of files in the destination directory  :  Multiple
+   Position of the Destination file in the DD    :  Any line
+   Content of the file                           :  Special Characters
+   number of command line arguments and options  :  More than one
+

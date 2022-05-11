@@ -1,0 +1,82 @@
+
+# SourceDirectory
+  Source Directory(SD) Existence:
+        True.                   [single] [property SDExists] 
+        False.                  [error]
+
+  Number of Source Directory(SD):
+        None.                   [error] [property noSD]
+        One.                    [single] [property SDExists]
+        Many.                   [property SDExists]
+     
+  Source File size:
+        Empty.                  [single] [if SDExists] [property SDFileEmpty]
+        Not Empty.
+  
+  Source File open or close:
+        Close.                  [if SDExists && !SDFileEmpty] [property SDFileClose]
+        Open.                   [if SDExists && !SDFileEmpty]
+  
+  Number of files in the source(S) directory(D):
+        Zero.                   [error] [if SDExists] [property SDZeroFiles]
+        One.                    [single] [if SDExists] [property backUpSDFile]
+        Multiple.               [if SDExists] [property backUpSDFile] 
+
+  Content of the file:
+        Alphanumeric chars.     [if !SDFileEmpty]
+        Spaces.                 [if !SDFileEmpty]
+        Special Characters.     [if !SDFileEmpty]
+
+# DestinationDirectory
+  Destination Directory(DD) Existence:
+        True.                   [single] [property DDExists]
+        False.                  [error]
+  
+  Destination File size:
+        Empty.                  [single] [if DDExists] [property DDFileEmpty]
+        Not Empty. 
+
+  Destination File open or close:
+        Close.                  [if DDExists && !DDFileEmpty] [property DDFileClose]
+        Open.                   [if DDExists && !DDFileEmpty]
+  
+  Number of Destination Directory(SD):
+        None.                   [error] [property noDD]
+        One.                    [single] 
+        Many.    
+  
+  Number of files in the destination directory:
+        Zero.                   [error] [if DDExists] [property DDZeroFiles]
+        One.                    [single] [if !DDFileEmpty] [property backUpDDFile]
+        Multiple.               [if !DDFileEmpty] [property backUpDDFile]       
+    
+  Position of the Destination file in the DD:
+        First line.             [if !DDZeroFiles]
+        Last line.              [if !DDZeroFiles]
+        Any line.               [if !DDZeroFiles]
+
+  Content of the file:
+        Alphanumeric chars.     [if !DDFileEmpty]
+        Spaces.                 [if !DDFileEmpty]
+        Special Characters.     [if !DDFileEmpty]
+
+# OPT
+  number of command line arguments and options:
+        Zero.                   [single]    [property emptyOPT]
+        More than one.
+  
+  command line argument for -b:
+        -b was entered          [if !emptyOPT && !DDFileClose] [property backUpDDFile]
+        -b was not entered      [if !emptyOPT]
+
+  command line argument for -f:
+        -f was entered          [if !emptyOPT && DDFileClose]  [property replaceDDFile] 
+        -f was not entered      [if !emptyOPT]
+        
+  command line argument for -r:
+        -r was entered          [if !emptyOPT] [property copyDRecursively]
+        -r was not entered      [if !emptyOPT]
+        
+  command line argument for -v:
+        -v was entered          [if !emptyOPT] 
+        -v was not entered      [if !emptyOPT]
