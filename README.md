@@ -1,1 +1,1 @@
-# 370Spring22Tenzin-Norsang
+# Software Engineering Course Assignments
